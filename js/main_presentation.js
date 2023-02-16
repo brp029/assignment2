@@ -166,7 +166,7 @@ function winCheck() {
 
 function stalemateCheck() {
 	
-	if (turncounter > 9 && gamewon == "no") {
+	if (turncounter > 9 && gamewon = "no") {
 		alert("Stalemate! Better luck next time.");
 	}
 	
