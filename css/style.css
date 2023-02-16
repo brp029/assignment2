@@ -51,10 +51,6 @@ a {
 	margin-bottom: 1em;
 }
 
-.letters {
-	font-size: 5em;
-}
-
 .boxes {
 	float: left;
 	width: 33%;
@@ -62,4 +58,8 @@ a {
 	border: 1px solid black;
 	text-align: center;
 	margin: auto;
+}
+
+.letters{
+	font-size: 5em;
 }
