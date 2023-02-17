@@ -119,48 +119,56 @@ function winCheck() {
 	if (box1val == box2val && box2val == box3val){
 		alert(currentPlayer+" Wins!");
 		gamewon = "yes";
+		gamestatus = "gameoff";
 	}
 	
 	//check for win condition middle row	
 	if (box4val == box5val && box5val == box6val){
 		alert(currentPlayer+" Wins!");
 		gamewon = "yes";
+		gamestatus = "gameoff";
 	}
 	
 	//check for win condition bottom row	
 	if (box7val == box8val && box8val == box9val){
 		alert(currentPlayer+" Wins!");
 		gamewon = "yes";
+		gamestatus = "gameoff";
 	}
 	
 	//check for win condition left col	
 	if (box1val == box4val && box4val == box7val){
 		alert(currentPlayer+" Wins!");
 		gamewon = "yes";
+		gamestatus = "gameoff";
 	}
 	
 	//check for win condition middle col	
 	if (box2val == box5val && box5val == box8val){
 		alert(currentPlayer+" Wins!");
 		gamewon = "yes";
+		gamestatus = "gameoff";
 	}
 	
 	//check for win condition right col	
 	if (box3val == box6val && box6val == box9val){
 		alert(currentPlayer+" Wins!");
 		gamewon = "yes";
+		gamestatus = "gameoff";
 	}
 	
 	//check for win condition diag1	
 	if (box1val == box5val && box5val == box9val){
 		alert(currentPlayer+" Wins!");
 		gamewon = "yes";
+		gamestatus = "gameoff";
 	}
 	
 	//check for win condition diag2	
 	if (box7val == box5val && box5val == box3val){
 		alert(currentPlayer+" Wins!");
 		gamewon = "yes";
+		gamestatus = "gameoff";
 	}
 }
 
