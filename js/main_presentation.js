@@ -168,6 +168,7 @@ function stalemateCheck() {
 	
 	if (turncounter > 9 && gamewon == "no") {
 		alert("Stalemate! Better luck next time.");
+		gamestatus = "gameoff";
 	}
 	
 }
