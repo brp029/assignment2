@@ -8,10 +8,10 @@ let turncounter, currentPlayer, box1val, box2val, box3val, box4val, box5val, box
 let gamestatus = "gameoff";
 let gamewon = "no";
 
-window.onload = function() {
+/* window.onload = function() {
 	let btn = document.getElementById("myButton");
 	btn.addEventListener("click", startGame());
-}
+} */
 
 function startGame() {
 	// set start values for boxes
